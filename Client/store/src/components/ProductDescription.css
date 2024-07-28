@@ -1,0 +1,29 @@
+.product-description {
+    margin-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+}
+
+.tab.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.description-content {
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    margin-top: 10px;
+}
